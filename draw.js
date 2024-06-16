@@ -102,7 +102,7 @@ function init() {
     state.controlButton.innerText = 'Toggle canvas'
     state.controlButton.setAttribute(
       'style',
-      'background-color: yellow; position: fixed; top: 100px; left: 20px; height: 20px; padding: 0.5rem 1rem; cursor: pointer; z-index: 9999'
+      'background-color: #0ea5e9; position: fixed; top: 100px; left: 20px; height: 40px; padding: 0.5rem 1rem; cursor: pointer; z-index: 9999; color: #f8fafc; border-radius: 20px'
     )
 
     document.body.appendChild(state.controlButton)
