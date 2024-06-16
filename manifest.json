@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Normal distribution plotter",
+  "description": "An extension which will allow you to draw standard deviation lines on your screen",
+  "version": "1.0",
+  "action": {
+    "default_title": "Click to draw"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "worker.js"
+  }
+}
